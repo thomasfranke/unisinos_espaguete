@@ -1,0 +1,60 @@
+Date : 2026-05-18 01:28:52
+Directory : /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib
+Total : 26 files,  51 codes, 137 comments, 50 blanks, all 238 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         26 |         51 |        137 |         50 |        238 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                           |         26 |         51 |        137 |         50 |        238 |
+| . (Files)                                                                                   |          1 |         -2 |          2 |          0 |          0 |
+| models                                                                                      |          3 |          0 |         24 |         16 |         40 |
+| notifiers                                                                                   |          8 |        -55 |         29 |        -10 |        -36 |
+| routes                                                                                      |          1 |          0 |          1 |          0 |          1 |
+| screens                                                                                     |          7 |          3 |         23 |          0 |         26 |
+| screens (Files)                                                                             |          3 |          2 |          9 |          0 |         11 |
+| screens/tabs                                                                                |          2 |          0 |          8 |          0 |          8 |
+| screens/widgets                                                                             |          2 |          1 |          6 |          0 |          7 |
+| states                                                                                      |          4 |         59 |         38 |         27 |        124 |
+| theme                                                                                       |          2 |         46 |         20 |         17 |         83 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                    | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/main.dart                            | Dart     |         -2 |          2 |          0 |          0 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/models/crypto_quote_model.dart       | Dart     |          0 |         10 |          7 |         17 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/models/kline_model.dart              | Dart     |          0 |         10 |          7 |         17 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/models/user_preferences_model.dart   | Dart     |          0 |          4 |          2 |          6 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/crypto_quote_notifier.dart | Dart     |          1 |          5 |          2 |          8 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/crypto_quote_state.dart    | Dart     |        -15 |          0 |         -5 |        -20 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/favorites_notifier.dart    | Dart     |          1 |          8 |          2 |         11 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/favorites_state.dart       | Dart     |        -14 |          0 |         -4 |        -18 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/kline_notifier.dart        | Dart     |          1 |          8 |          3 |         12 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/kline_state.dart           | Dart     |        -15 |          0 |         -5 |        -20 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/preferences_notifier.dart  | Dart     |          1 |          8 |          2 |         11 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/notifiers/preferences_state.dart     | Dart     |        -15 |          0 |         -5 |        -20 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/routes/app_router.dart               | Dart     |          0 |          1 |          0 |          1 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/detail_screen.dart           | Dart     |          2 |          4 |          0 |          6 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/home_screen.dart             | Dart     |          0 |          2 |          0 |          2 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/preferences_screen.dart      | Dart     |          0 |          3 |          0 |          3 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/tabs/favorites_tab.dart      | Dart     |          0 |          4 |          0 |          4 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/tabs/quotes_tab.dart         | Dart     |          0 |          4 |          0 |          4 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/widgets/drawer_widget.dart   | Dart     |          1 |          2 |          0 |          3 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/screens/widgets/quote_list_tile.dart | Dart     |          0 |          4 |          0 |          4 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/states/crypto_quote_state.dart       | Dart     |         15 |         10 |          7 |         32 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/states/favorites_state.dart          | Dart     |         14 |         10 |          6 |         30 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/states/kline_state.dart              | Dart     |         15 |          9 |          7 |         31 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/states/preferences_state.dart        | Dart     |         15 |          9 |          7 |         31 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/theme/app_colors.dart                | Dart     |         16 |         16 |         14 |         46 |
+| /Users/thf/Work/Flutter_Apps/tcc/flutter_spaghetti/lib/theme/app_theme.dart                 | Dart     |         30 |          4 |          3 |         37 |
+| Total                                                                                       |          |         51 |        137 |         50 |        238 |
++---------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
